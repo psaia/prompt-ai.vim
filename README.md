@@ -41,9 +41,9 @@ export OPENAI_API_KEY="sk-..."
   "psaia/qc-ai",
   config = function()
     require("ai_config").setup({
-      model = "gpt-4",      -- or "o4-mini" (default)
-      temperature = 0.7,    -- controls creativity (default: 1)
-      max_history = 8,      -- max prompt/response pairs remembered
+      model = "o4-mini",    -- or "o4-mini" (default)
+      temperature = 1  ,    -- controls creativity (default: 1)
+      max_history = 8,      -- max prompt/response pairs remembered (default: 8)
     })
   end,
   cmd = { "QC", "QCClearHistory", "QCClearCache" },
