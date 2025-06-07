@@ -8,7 +8,9 @@
 :QC use a light theme and turn on line numbers
 ```
 
-It uses OpenAI’s API to generate and apply valid Lua code that configures your Neovim environment on the fly. Think of it as your personal Vim butler with a GPT brain.
+It uses OpenAI’s API to generate and apply valid Lua code that configures your Neovim environment on the fly. Think of it as your personal Vim butler.
+
+![Demo](./qc.gif)
 
 ---
 
