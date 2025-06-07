@@ -1,8 +1,8 @@
-# ⚡️ QC-AI: Quick Config for Neovim with OpenAI
+# ⚡️ qc-ai: Quick Config for Neovim with OpenAI
 
 > Natural language Vim config powered by AI.
 
-**QC-AI** is a super lightweight Neovim plugin that lets you configure your editor using natural language prompts like:
+**qc-ai** is a super lightweight Neovim plugin that lets you configure your editor using natural language prompts like:
 
 ```vim
 :QC use a light theme and turn on line numbers
