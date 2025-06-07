@@ -1,4 +1,4 @@
-# ⚡️ qc-ai: Quick Config for Neovim with OpenAI
+# ⚡️ qc-ai
 
 > Natural language Vim config powered by AI.
 
@@ -31,6 +31,11 @@ This uses OpenAI’s API to generate and apply valid Lua code that dynamically c
 * Configurable model, temperature, and history length
 * Commands to clear history and cache
 
+
+This plugin focuses solely on one thing: on-the-fly Vim configuration.
+
+If you're looking for AI-powered file editing or manipulation, check out [vim-ai](https://github.com/madox2/vim-ai).
+
 ---
 
 ## 📦 Requirements
@@ -60,21 +65,21 @@ export OPENAI_API_KEY="sk-..."
 
 ---
 
-## 🛠 Usage
+## Usage
 
-### 🧠 Configure with Natural Language
+### Configure with Natural Language
 
 ```vim
 :QC use gruvbox with transparent background
 ```
 
-### 🔄 Clear History
+### Clear History
 
 ```vim
 :QCClearHistory
 ```
 
-### ♻️ Clear Cache
+### Clear Cache
 
 ```vim
 :QCClearCache
@@ -82,7 +87,7 @@ export OPENAI_API_KEY="sk-..."
 
 ---
 
-## 📂 Where Data is Stored
+## Where Data is Stored
 
 | File                                         | Purpose                 |
 | -------------------------------------------- | ----------------------- |
@@ -92,13 +97,13 @@ export OPENAI_API_KEY="sk-..."
 
 ---
 
-## 🔐 Privacy & Safety
+## Privacy & Safety
 
 No telemetry or analytics. Your prompts and configs are never stored or sent anywhere beyond OpenAI's API.
 
 ---
 
-## 💡 Ideas for the Future
+## Ideas for the Future
 
 * Different models other than OpenAI
 * Telescope integration for history
