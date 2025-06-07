@@ -16,8 +16,6 @@ Or
 
 You get the idea.
 
-This uses OpenAI’s API to generate and apply valid Lua code that dynamically configures your Neovim environment. Perfect for those moments when you don’t remember the exact Lua syntax.
-
 ![Demo](./demo.gif)
 
 ---
@@ -32,9 +30,9 @@ This uses OpenAI’s API to generate and apply valid Lua code that dynamically c
 * Commands to clear history and cache
 
 
-This plugin focuses solely on one thing: on-the-fly Vim configuration.
-
-If you're looking for AI-powered file editing or manipulation, check out [vim-ai](https://github.com/madox2/vim-ai).
+> [!TIP]
+> This plugin focuses solely on one thing: on-the-fly Vim configuration.
+> If you're looking for AI-powered file editing or manipulation, check out [vim-ai](https://github.com/madox2/vim-ai).
 
 ---
 
