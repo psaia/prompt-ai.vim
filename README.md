@@ -25,7 +25,7 @@
 
 > [!TIP]
 > This plugin focuses solely on one thing: on-the-fly Vim prompt generation.
-> If you're looking for AI-powered file editing or manipulation, check out [vim-ai](https://github.com/madox2/vim-ai).
+> If you're looking for AI-powered file editing or manipulation, check out [vim-ai](https://github.com/madox2/vim-ai). qc-ai and vim-ai compliment each other well.
 
 ---
 
