@@ -15,7 +15,7 @@
 
 ## ✨ Features
 
-* Instantly apply settings via natural language (`:QC`)
+* Easily apply prompt config via natural language (`:QC`)
 * Caches responses to avoid redundant API calls
 * Remembers previous conversations (limited to recent history)
 * Saves history and cache to disk across sessions
