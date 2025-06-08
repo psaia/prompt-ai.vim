@@ -1,6 +1,4 @@
-# ⚡️ qc-ai
-
-> Natural language Vim config powered by AI.
+# ⚡️ qc-ai - Configure you vim runtime with natural language.
 
 **qc-ai** is a super lightweight Neovim plugin that lets you configure your editor using natural language prompts like:
 
@@ -13,8 +11,6 @@ Or
 ```vim
 :QC optimize for viewing large files
 ```
-
-You get the idea.
 
 ![Demo](./demo.gif)
 
