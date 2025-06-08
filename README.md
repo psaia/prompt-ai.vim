@@ -2,12 +2,12 @@
 
 **qc-ai** (short for _quick config_) is a super lightweight Neovim plugin that lets you configure your editor using natural language prompts like:
 
-1. `:QC use a light theme and turn on line numbers`
-2. `:QC optimize for viewing large files`
-3. `:QC replace word "foo" with "bar"`
-4. `:QC use the kanagawa-lotus colorscheme`
-5. `:QC format file`
-6. Or really anything you want!
+* `:QC use a light theme and turn on line numbers`
+* `:QC optimize for viewing large files`
+* `:QC replace word "foo" with "bar"`
+* `:QC use the kanagawa-lotus colorscheme`
+* `:QC format file`
+* Or really anything you can think of.
 
 ![Demo](./demo.gif)
 
