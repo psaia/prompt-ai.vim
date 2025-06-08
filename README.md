@@ -44,7 +44,7 @@ export OPENAI_API_KEY="sk-..."
 {
   "psaia/qc-ai",
   config = function()
-    require("ai_config").setup({
+    require("qc_ai").setup({
       model = "o4-mini",    -- or "o4-mini" (default)
       temperature = 1  ,    -- controls creativity (default: 1)
       max_history = 8,      -- max prompt/response pairs remembered (default: 8)
