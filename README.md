@@ -2,11 +2,11 @@
 
 **qc-ai** (short for _quick config_) is a super lightweight Neovim plugin that lets you configure your editor using natural language prompts like:
 
-* `:QC use a light theme and turn on line numbers`
-* `:QC optimize for viewing large files`
-* `:QC replace word "foo" with "bar"`
-* `:QC use the kanagawa-lotus colorscheme`
-* `:QC format file`
+* `:P use a light theme and turn on line numbers`
+* `:P optimize for viewing large files`
+* `:P replace word "foo" with "bar"`
+* `:P use the kanagawa-lotus colorscheme`
+* `:P format file`
 * Or really anything you can think of.
 
 ![Demo](./demo.gif)
@@ -15,7 +15,7 @@
 
 ## ✨ Features
 
-* Easily apply prompt config via natural language (`:QC`)
+* Easily apply prompt config via natural language (`:P`)
 * Caches responses to avoid redundant API calls
 * Remembers previous conversations (limited to recent history)
 * Saves history and cache to disk across sessions
@@ -44,13 +44,13 @@ export OPENAI_API_KEY="sk-..."
 {
   "psaia/qc-ai",
   config = function()
-    require("qc_ai").setup({
+    require("prompt_ai").setup({
       model = "o4-mini",    -- or "o4-mini" (default)
       temperature = 1  ,    -- controls creativity (default: 1)
       max_history = 8,      -- max prompt/response pairs remembered (default: 8)
     })
   end,
-  cmd = { "QC", "QCClearHistory", "QCClearCache" },
+  cmd = { "P", "PClearHistory", "PClearCache" },
 }
 ```
 
@@ -61,19 +61,19 @@ export OPENAI_API_KEY="sk-..."
 ### Configure with Natural Language
 
 ```vim
-:QC use gruvbox with transparent background
+:P use gruvbox with transparent background
 ```
 
 ### Clear History
 
 ```vim
-:QCClearHistory
+:PClearHistory
 ```
 
 ### Clear Cache
 
 ```vim
-:QCClearCache
+:PClearCache
 ```
 
 ---
