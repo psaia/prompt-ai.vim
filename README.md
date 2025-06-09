@@ -96,6 +96,7 @@ No telemetry or analytics. Your prompts and configs are never stored or sent any
 
 ## Ideas for the Future
 
+* Intelligently contextualize pre-installed plugins for more relevant prompts
 * Different models other than OpenAI
 * Telescope integration for history
 * Floating preview of generated code
