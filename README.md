@@ -1,6 +1,6 @@
-# ⚡️ qc-ai - Prompt vim with natural language
+# ⚡️ prompt-ai - configure vim with natural language
 
-**qc-ai** (short for _quick config_) is a super lightweight Neovim plugin that lets you configure your editor using natural language prompts like:
+**prompt-ai** is a super lightweight Neovim plugin that lets you configure your editor using natural language prompts like:
 
 * `:P use a light theme and turn on line numbers`
 * `:P optimize for viewing large files`
@@ -25,7 +25,7 @@
 
 > [!TIP]
 > This plugin focuses solely on one thing: on-the-fly Vim prompt generation.
-> If you're looking for AI-powered file editing or manipulation, check out [vim-ai](https://github.com/madox2/vim-ai). qc-ai and vim-ai compliment each other well.
+> If you're looking for AI-powered file editing or manipulation, check out [vim-ai](https://github.com/madox2/vim-ai). prompt-ai and vim-ai compliment each other well.
 
 ---
 
@@ -42,7 +42,7 @@ export OPENAI_API_KEY="sk-..."
 
 ```lua
 {
-  "psaia/qc-ai",
+  "psaia/prompt-ai.vim",
   config = function()
     require("prompt_ai").setup({
       model = "o4-mini",    -- or "o4-mini" (default)
